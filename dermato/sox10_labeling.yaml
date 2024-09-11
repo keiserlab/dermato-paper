@@ -1,0 +1,357 @@
+
+---
+label_stride: 6
+label_tile_size: 256
+label_batch_size: 500
+# label_num_workers: 6
+# devices: 6
+sections:
+  WSI-42_SEG1: 
+    stain_color: "red"
+    dab_thred: 20
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-42_SEG2:
+    stain_color: "red"
+    dab_thred: 20
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-43_SEG1: # the below parameters are NOT optimized yet
+    stain_color: "red"
+    dab_thred: 20
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-43_SEG4: # the below parameters are NOT optimized yet
+    stain_color: "red"
+    dab_thred: 20
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-44_SEG5:
+    stain_color: "red"
+    dab_thred: 15
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-44_SEG6:
+    stain_color: "red"
+    dab_thred: 30
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-47_SEG1:
+    stain_color: "red"
+    dab_thred: 60
+    artifact: "artifacts"
+    min_artifact_size: 2000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-47_SEG3:
+    stain_color: "red"
+    dab_thred: 80
+    artifact: "artifacts"
+    min_artifact_size: 4000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-47_SEG5:
+    stain_color: "red"
+    dab_thred: 15
+    artifact: "artifacts"
+    min_artifact_size: 4000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-52_SEG1:
+    stain_color: "red"
+    dab_thred: 160
+    artifact: "blood"
+    min_artifact_size: 50000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-52_SEG2:
+    stain_color: "red"
+    dab_thred: 25
+    artifact: "blood"
+    min_artifact_size: 5000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-52_SEG3:
+    stain_color: "red"
+    dab_thred: 25
+    artifact: "blood"
+    min_artifact_size: 15000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-52_SEG4:
+    stain_color: "red"
+    dab_thred: 25
+    artifact: "blood"
+    min_artifact_size: 20000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-52_SEG5:
+    stain_color: "red"
+    dab_thred: 20
+    artifact: "blood"
+    min_artifact_size: 25000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-52_SEG6:
+    stain_color: "red"
+    dab_thred: 80
+    artifact: "blood"
+    min_artifact_size: 25000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-55_SEG1:
+    stain_color: "red"
+    dab_thred: 50
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-55_SEG3:
+    stain_color: "red"
+    dab_thred: 160
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-57_SEG1:
+    stain_color: "brown"
+    dab_thred: 100
+    artifact: "DarkGreen"
+    min_artifact_size: 2000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 9
+      - 9
+    threshold: 2
+  WSI-58_SEG1:
+    stain_color: "brown"
+    dab_thred: 60
+    artifact: "DarkGreen"
+    min_artifact_size: 2000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-59_SEG1:
+    stain_color: "brown"
+    dab_thred: 60
+    artifact: "artifacts"
+    min_artifact_size: 2000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-59_SEG2:
+    stain_color: "brown"
+    dab_thred: 80
+    artifact: "artifacts"
+    min_artifact_size: 1000
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-59_SEG3:
+    stain_color: "brown"
+    dab_thred: 70
+    artifact: "artifacts"
+    min_artifact_size: 700
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-59_SEG4:
+    stain_color: "brown"
+    dab_thred: 20
+    artifact: "artifacts"
+    min_artifact_size: 800
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-60_SEG1:
+    stain_color: "red"
+    dab_thred: 80
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-60_SEG2:
+    stain_color: "red"
+    dab_thred: 80
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-60_SEG3: # subarea of H&E is blurry
+    stain_color: "red"
+    dab_thred: 80
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-61_SEG1:
+    stain_color: "red"
+    dab_thred: 70
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-61_SEG3:
+    stain_color: "red"
+    dab_thred: 70
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 7
+      - 7
+    threshold: 2
+  WSI-61_SEG4:
+    stain_color: "red"
+    dab_thred: 15
+    artifact: null
+    min_artifact_size: null
+    first_kernel: 
+      - 3
+      - 3
+    second_kernel:
+      - 5
+      - 5
+    threshold: 2
+

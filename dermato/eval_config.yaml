@@ -1,0 +1,27 @@
+---
+seed: 3407
+
+gpus:
+  - 0
+  - 3
+
+# number of processors for data loading
+num_workers: 8
+# batcj soze
+batch_size: 480
+
+stain: "melanA" # melanA or Sox10
+# set up the mode
+trained_model_path: 
+  "split_1": "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID1-epoch-6-valauprc-0.6841945210509829.pt"
+  "split_2": "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID2-epoch-5-valauprc-0.7044594143612438.pt"
+  "split_3": "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID3-epoch-27-valauprc-0.5682169670275715.pt"
+  "split_4": "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID4-epoch-8-valauprc-0.6434869285287758.pt"
+  "split_5": "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID5-epoch-14-valauprc-0.5857958440628868.pt"
+# loss fucntion 
+loss_function_name: "BCEWithLogitsLoss" #BCEWithLogitsLoss or BinaryFocalWithLogitsLoss
+# BCELoss weights
+pos_weight: 1.0
+
+# the path to the directory where the model weights are saved
+output_dir: "/srv/ds/set-1/user/mtada/Eval_GaskinModel"

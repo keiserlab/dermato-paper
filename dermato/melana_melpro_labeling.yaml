@@ -1,0 +1,432 @@
+
+sections:
+  WSI-02-IHC_3.warp:
+    threshold: 2.5
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null
+      - null
+  WSI-02-IHC_5.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-02-IHC_6.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null
+      - null
+  WSI-02-IHC_7.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-03-IHC_1.warp: # manually remove brown noise
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-03-IHC_2.warp: # manually remove brown noise
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-06-IHC_2.warp:
+    threshold: 2.5
+    dab_thred: 15 
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null
+      - null
+  WSI-06-IHC_3.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-06-IHC_4.warp:
+    threshold: 3.0
+    dab_thred: 15  
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-06-IHC_5.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-06-IHC_6.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-06-IHC_7.warp:
+    threshold: 3.0
+    dab_thred: 15  
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-06-IHC_8.warp:
+    threshold: 3.0
+    dab_thred: 15  
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-07-IHC_2.warp:
+    threshold: 3.0
+    dab_thred: 15   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-07-IHC_3.warp:
+    threshold: 3.0
+    dab_thred: 15   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-07-IHC_4.crop.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-07-IHC_5.crop1.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-09-HE_1-MELA_1.crop1.warp: # Macenko
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-12-IHC_1.warp:
+    threshold: 3.0
+    dab_thred: 15   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-12-IHC_2.warp:
+    threshold: 3.0
+    dab_thred: 15   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-13-IHC_1.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-13-IHC_2.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-13-IHC_4.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-14-IHC_1.crop.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-14-IHC_3.crop.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-14-IHC_5.crop.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-14-IHC_6.crop.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-14-IHC_7.crop.warp:
+    threshold: 3.0
+    dab_thred: 15
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-15-IHC_1.warp: # Macenko
+    threshold: 3.0
+    dab_thred: 30   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-28-IHC_5.warp: # manully remove brown noise
+    threshold: 3.0
+    dab_thred: 15   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-28-IHC_6.warp:
+    threshold: 3.0
+    dab_thred: 15   
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-16-IHC_1.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-16-IHC_2.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-16-IHC_3.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-16-IHC_4.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-16-IHC_6.warp:
+    threshold: 3.0
+    dab_thred: 15    
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-30.HEL_1-MelPro_1.warp: # Macenko
+    threshold: 3.0
+    dab_thred: 30
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-32.HEL_2-MelPro_2.crop_2.warp: #Macenko
+    threshold: 3.0
+    dab_thred: 30
+    artifact: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null
+  WSI-32.HEL_3-MelPro_3.crop_1.warp: # Removed brown noise
+    threshold: 3.0
+    dab_thred: 30
+    artifact: null
+    min_artifact_size: null
+    stain_color: "red"
+    first_kernel:
+      - null
+      - null
+    second_kernel:
+      - null 
+      - null

@@ -1,0 +1,27 @@
+---
+# Seed
+seed: 3407
+stain: 'sox10' # 'sox10' or 'melanA'
+gpu: 
+  - 0
+  - 1
+num_workers: 4
+max_epochs: 150
+patients: 8
+batch_size: 240
+
+# Weights for WeightedRandomSampler, must add to 1.0
+wrs_pos_weight: 0.5
+wrs_neg_weight: 0.5
+
+# # Optimizer
+lr: 0.0003
+
+
+# loss fucntion 
+loss_function_name: "BCEWithLogitsLoss" #BCEWithLogitsLoss or BinaryFocalWithLogitsLoss
+# BCELoss weights
+pos_weight: 1.0
+
+# the path to the directory where the model weights are saved
+output_dir: "/scratch/mtada/GaskinModel" #"/scratch/disk2/mtada/GaskinModel" 

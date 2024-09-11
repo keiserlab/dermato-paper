@@ -1,0 +1,65 @@
+# seed 
+seed: 3407
+
+# stride for the sliding window
+stride: 6
+
+# batch size and number of workers
+batch_size: 500
+num_workers: 12
+
+# gpu id
+devices: 
+  - 1
+
+# output directory
+out_dir: '/srv/ds/set-1/user/mtada/derma-heatmaps'
+experiemnt_name: 'sox10_5folds'
+
+# full path to a model weights
+list_model_weights:
+  # Sox10 
+  - "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID1-epoch-11-valauprc-0.5891740055242767.pt"
+  - "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID2-epoch-21-valauprc-0.4878727065470806.pt"
+  - "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID3-epoch-2-valauprc-0.5089270142869421.pt"
+  - "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID4-epoch-7-valauprc-0.45599888026286683.pt"
+  - "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID5-epoch-13-valauprc-0.2867592479783084.pt"
+  # MelanA
+  # - "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID1-epoch-6-valauprc-0.6841945210509829.pt"
+  # - "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID2-epoch-5-valauprc-0.7044594143612438.pt"
+  # - "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID3-epoch-27-valauprc-0.5682169670275715.pt"
+  # - "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID4-epoch-8-valauprc-0.6434869285287758.pt"
+  # - "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID5-epoch-14-valauprc-0.5857958440628868.pt"
+
+list_mean_std_files:
+  # Sox10
+  - '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split1_w_tcga_outof_5folds_mean_std.pkl'
+  - '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split2_w_tcga_outof_5folds_mean_std.pkl'
+  - '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split3_w_tcga_outof_5folds_mean_std.pkl'
+  - '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split4_w_tcga_outof_5folds_mean_std.pkl'
+  - '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split5_w_tcga_outof_5folds_mean_std.pkl'
+  - '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split1_w_tcga_outof_5folds_mean_std.pkl'
+  # MelanA
+  # - '/srv/home/mtada/dermato-paper/melanA/5folds_csv/split1_w_tcga_outof_5folds_mean_std.pkl'
+  # - '/srv/home/mtada/dermato-paper/melanA/5folds_csv/split2_w_tcga_outof_5folds_mean_std.pkl'
+  # - '/srv/home/mtada/dermato-paper/melanA/5folds_csv/split3_w_tcga_outof_5folds_mean_std.pkl'
+  # - '/srv/home/mtada/dermato-paper/melanA/5folds_csv/split4_w_tcga_outof_5folds_mean_std.pkl'
+  # - '/srv/home/mtada/dermato-paper/melanA/5folds_csv/split5_w_tcga_outof_5folds_mean_std.pkl'
+
+# model_weights: "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID5-epoch-13-valauprc-0.2867592479783084.pt"
+# mean_std_file: '/srv/home/mtada/dermato-paper/Sox10/5folds_csv/split1_w_tcga_outof_5folds_mean_std.pkl'
+
+# list of sections to inference 
+sections:
+  ## Sox10
+  - ['section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  - [section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  - [section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  - [section_id', 'section_id', 'section_id', 'section_id', 'section_id'']
+  - [section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  ## melanA 
+  # - ['section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  # - [section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  # - [section_id', 'section_id', 'section_id', 'section_id', 'section_id']
+  # - [section_id', 'section_id', 'section_id', 'section_id', 'section_id'']
+  # - [section_id', 'section_id', 'section_id', 'section_id', 'section_id']
