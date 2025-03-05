@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saliency_overlap_v2"
+version = "0.1.0"
+description = "Distributed saliency analysis pipeline for tissue samples"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy",
+    "opencv-python",
+    "pyyaml",
+    "pandas",
+    "tqdm",
+    "scikit-learn",
+    "torchvision",
+    "torchaudio",
+    "captum",
+    "zarr",
+    "pillow",
+    "kornia",
+]
+
+[project.scripts]
+saliency_overlap_v2 = "saliency_overlap_v2:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}

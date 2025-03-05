@@ -1,0 +1,25 @@
+---
+seed: 3407
+
+# number of processors for data loading
+num_workers: 8
+
+batch_size: 128
+
+#note: move these files to new dermato repo
+dataframe_path:
+  "melanA": "/srv/home/mtada/dermato-paper_old/melanA/5folds_csv/split5_test_outof_5folds.csv"
+  "sox10": "/srv/home/mtada/dermato-paper_old/Sox10/5folds_csv/split5_test_outof_5folds.csv"
+
+trained_model_path: 
+  "melanA": "/srv/home/mtada/tmp/melanA_5folds/melanA_5folds_splitID5-epoch-14-valauprc-0.5857958440628868.pt"
+  "sox10":  "/srv/home/mtada/tmp/sox10_5folds/5folds_splitID5-epoch-13-valauprc-0.2867592479783084.pt"
+
+#note: move these files to new dermato repo
+mean_std_path:
+  "melanA": '/srv/home/mtada/dermato-paper_old/melanA/5folds_csv/split5_w_tcga_outof_5folds_mean_std.pkl'
+  "sox10":  '/srv/home/mtada/dermato-paper_old/Sox10/5folds_csv/split5_w_tcga_outof_5folds_mean_std.pkl'
+
+
+# the path to the directory where the model weights are saved
+output_dir: "/scratch/YOUR_USERNAME_HERE/dermpath/output/saliency"
