@@ -27,7 +27,4 @@ To generate prediction confidence heatmaps, use `dermato/heatmap.py` with the `d
 ### Saliency Map Generation
 For saliency map generation, refer to the `saliency/generate_saliency_visualizations.ipynb` notebook.
 
-## Citation
-
-## License
 
